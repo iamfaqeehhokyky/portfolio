@@ -243,6 +243,16 @@ section .title::after {
 }
 
 .about .about-content .right a {
+  text-decoration: none;
+  color: blue;
+}
+
+.about .about-content .right a:hover {
+  text-decoration: underline;
+  background: crimson;
+}
+
+.about .about-content .right .text2 a {
   display: inline-block;
   background: crimson;
   color: #fff;
@@ -253,11 +263,13 @@ section .title::after {
   border-radius: 6px;
   border: 2px solid crimson;
   transition: all 0.3s ease;
+  text-decoration: underline;
 }
 
 .about .about-content .right a:hover {
   color: crimson;
   background: none;
+  text-decoration: none;
 }
 
 /* services section styling */
@@ -310,7 +322,7 @@ section .title::after {
 
 .service .service-content .card .text {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 10px 0 7px 0;
 }
 
@@ -381,6 +393,10 @@ section .title::after {
   left: 0;
   top: 0;
   background: crimson;
+}
+
+.skill-content .right .wordpress::before {
+  width: 80%;
 }
 
 .skill-content .right .html::before {
@@ -621,6 +637,12 @@ footer .fa:hover {
 footer .foot-2 {
   background: none;
   display: flex;
+  padding: 0 25px;
+  margin: 5px 2px;
+}
+
+footer .foot-2 .fa:hover {
+  transform: translateY(8px);
 }
 
 footer .foot-2 .fa-twitter {
@@ -631,6 +653,9 @@ footer .foot-2 .fa-linkedin {
 }
 footer .foot-2 .fa-instagram {
   color: #cb2027;
+}
+footer .foot-2 .fa-github {
+  color: #fff;
 }
 
 
