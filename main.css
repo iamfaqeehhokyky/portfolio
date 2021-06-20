@@ -109,7 +109,7 @@ html {
 /* home section styling */
 .home {
   display: flex;
-  background: url("https://cdn.pixabay.com/photo/2015/11/04/09/28/banner-1022119_960_720.jpg");
+  background: url("images/banner.jpg");
   height: 100vh;
   color: #fff;
   min-height: 500px;
